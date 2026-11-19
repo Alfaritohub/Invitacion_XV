@@ -1,0 +1,19 @@
+INVITACION XV - CANDELA
+
+ARCHIVOS: index.html, style.css, script.js, fondo-loop.jpg, foto1.jpeg, foto2.jpeg, Code.gs
+Mantener todos en la misma carpeta y abrir index.html. (Necesita internet.)
+
+SUBIR EL EXCEL A TU GOOGLE DRIVE (configuracion unica, ~5 minutos)
+1) Entra a https://script.google.com con la cuenta DUENA de la carpeta de Drive > Nuevo proyecto.
+2) Borra el codigo de ejemplo y pega todo el contenido de Code.gs.
+3) Implementar > Nueva implementacion > tipo "Aplicacion web".
+   - Ejecutar como: Yo
+   - Quien tiene acceso: Cualquier persona
+   Autoriza los permisos que pida (Drive y Hojas de calculo).
+4) Copia la URL que termina en /exec.
+5) En script.js pega esa URL en:  const URL_APPS_SCRIPT = "...";
+6) Subi la carpeta a un hosting (Netlify, GitHub Pages) y comparti el link.
+
+Funcionamiento: la primera confirmacion crea la planilla "Confirmaciones_Candela_XV"
+en tu carpeta; las siguientes agregan filas a la misma y se actualiza el archivo
+Confirmaciones_Candela_XV.xlsx en esa carpeta.
